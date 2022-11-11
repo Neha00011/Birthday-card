@@ -107,6 +107,19 @@ body{
     width:500px;
     background-color: burlywood;
 }
+@media(max-width:800px){
+    /*for mobile phones*/
+    .card{
+        width: 70vw;
+        height: 70vh;
+    }
+    .block{
+        visibility:hidden;
+    }
+}
+
+
+
 
 
 
